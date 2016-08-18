@@ -10,7 +10,8 @@ public enum Compas {
     c3by4(3, 4),
     c4by4(4, 4),
     c5by4(5, 4),
-    c6by8(6, 8);
+    c6by8(6, 8),
+    c7by8(7, 8);
 
     private final int count;
     private final int value;
@@ -41,9 +42,10 @@ public enum Compas {
                 return "5/4";
             case c6by8:
                 return "6/8";
-
+            case c7by8:
+                return "7/8";
             default:
-                throw new IllegalArgumentException();
+                return "NO IMPLEMENTADA";
         }
     }
 }

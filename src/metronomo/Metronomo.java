@@ -83,6 +83,7 @@ public abstract class Metronomo {
         this.tempo = tempo;
         this.timeLapse = (60 * 1000) / this.tempo;
         clock.getIntervalUGen().setValue(timeLapse);
+        System.out.println("TEMPO REAL: "+clock.getTempo());
     }
 
     public void setCompas(Compas compas) {
