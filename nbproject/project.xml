@@ -15,6 +15,7 @@
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
             <name>MetroXIII-UI</name>
             <source-roots>
+                <root id="src.sounds.dir"/>
                 <root id="src.dir"/>
             </source-roots>
             <test-roots>
